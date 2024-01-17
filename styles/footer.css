@@ -1,0 +1,63 @@
+footer 
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #0e0e0e;
+}
+
+footer .col
+{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+footer h4 
+{
+  font-size: 16px;
+  font-weight: bolder;
+  margin: 8px;
+  margin-bottom: 10px;
+  color: rgb(96, 96, 96);
+}
+
+footer p 
+{
+  color: rgb(96, 96, 96);
+  font-size: 13px;
+  margin: 0 0 8px 0;
+}
+
+footer a 
+{
+  font-size: 13px;
+  text-decoration: none;
+  color: #ffffff;
+  margin: 10px;
+}
+
+footer .follow {
+  margin-top: 15px;
+}
+
+footer .follow i {
+  color: rgb(143, 163, 255);
+  padding-right: 4px;
+  cursor: pointer;
+}
+
+footer .follow i:hover,
+footer a:hover {
+  color: #088178;
+}
+
+footer .logo {
+  margin-bottom: 30px;
+  font-size: large;
+}
+
+.section-p1 {
+  padding: 40px 40px;
+}
